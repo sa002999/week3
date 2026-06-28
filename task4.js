@@ -10,8 +10,7 @@ function createLoadMoreButton() {
 
     // 已沒有資料可載入
     if (currentTitleIndex >= allRows.length) {
-      button.disabled = true;
-      button.textContent = "No More Data";
+      wrapper.remove();
     }
   });
 

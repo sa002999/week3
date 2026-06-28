@@ -218,7 +218,7 @@ body {
   margin-bottom: auto;
   width: 20px;
   height: 20px;
-  background-image: url(/img/star.svg);
+  background-image: url(img/star.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
